@@ -1,0 +1,51 @@
+/* Simple Alert */
+#simple-alert--notice {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9010;
+  padding: 20px 30px;
+  color: #000;
+  text-align: center;
+  display: block !important;
+  text-align: center;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 0px 10px #a4a4a4;
+}
+
+/* #simple-alert--notice.show-notice {
+  display: block !important;
+}*/
+
+#simple-alert--notice.hide-notice {
+  display: none !important;
+} 
+
+#simple-alert--notice .simple-alert-description {
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+/* Buttons */
+#simple-alert--notice .sa-actions {
+  display: inline-block;
+}
+
+#simple-alert--notice .sa-actions > button {
+  margin-left: 5px!important;
+  margin-right: 5px!important;
+  background-color: #000!important;
+  color: #fff!important;
+  border-radius: 5px!important;
+  padding: 5px 10px!important;
+  display: inline-flex!important;
+  line-height: 0.95rem!important;
+}
+
+#simple-alert--notice .sa-actions > button:hover {
+  opacity: 0.7;
+}
